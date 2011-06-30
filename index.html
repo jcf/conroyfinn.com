@@ -11,6 +11,7 @@
         height: 100%;
         color: #fff;
       }
+
       #container {
         position: fixed;
         top: 0;
@@ -21,6 +22,7 @@
         padding: 50px 0 0;
         text-align: center;
       }
+
       #container h1 {
         font: 50px "HelveticaNeue-Light", helvetica, sans-serif;
         line-height: 50px;
@@ -29,9 +31,24 @@
       }
     </style>
   </head>
+
   <body id="conroyfinn">
+
     <div id="container">
       <h1>Conroy-Finn</h1>
     </div>
+
+    <script type="text/javascript">
+      (function() {
+        var t   = document.createElement('script');
+        t.type  = 'text/javascript';
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '4e0c88f6613f5d6f0d000001');
+        t.src = '//secure.gaug.es/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+    </script>
   </body>
 </html>
